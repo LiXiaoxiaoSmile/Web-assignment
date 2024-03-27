@@ -17,10 +17,9 @@ body, html {
     overflow: hidden;
 }
 
-/* 头部样式增强 */
 header {
     background: #f7f7f7;
-    padding: 40px 0;
+    padding: 40px 0; /* 这将只在上下方向添加内边距，左右内边距设置为0 */
     color: #333;
 }
 
