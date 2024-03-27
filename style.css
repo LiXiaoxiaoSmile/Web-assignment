@@ -19,7 +19,7 @@ body, html {
 
 header {
     background: #f7f7f7;
-    padding: 40px 0; /* 这将只在上下方向添加内边距，左右内边距设置为0 */
+    padding: 40px 40px; /* 这将只在上下方向添加内边距，左右内边距设置为0 */
     color: #333;
 }
 
@@ -181,7 +181,7 @@ iframe {
   
   .photo-item img {
     width: 291.2px; /* 固定宽度 */
-    height: 179.16px; /* 固定高度 */
+    height: 300px; /* 固定高度 */
     object-fit: cover; /* 如果图片的原始尺寸不是224x149.3，这将保证图片覆盖整个区域但不变形 */
   }
   
